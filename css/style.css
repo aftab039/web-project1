@@ -1,4 +1,8 @@
+modern {
+    width: 100%;
+    position: relative;
+    
+}
 h1 {
-    color: yellow;
-
+    color:"yellow"
 }
