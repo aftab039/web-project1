@@ -1,8 +1,11 @@
-modern {
-    width: 100%;
-    position: relative;
-    
+table {
+    border: 2px solid yellowgreen;
+ border-collapse: collapse;
+ background-color:gray;
+ 
 }
-h1 {
-    color:"yellow"
+td , th {
+    border: 1px solid black;
+    padding: 10px;
+    color: red;
 }
