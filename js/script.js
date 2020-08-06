@@ -1,15 +1,19 @@
-function myfunction(){
-	document.getElementById("demo").innerHTML = "aftab";
-	console.log()
+function myFunction(){
+		document.getElementById("demo").innerHTML= "sultanpur";
+     console.log (city)
 }
-var itnro ={
-	my intro:{name:"aftab",
-	college:{name:"ACEIT",
-	year:"fourth",
-	specialization:{branch:"ECE"}
-	}
+var person ={
+	intro:{state:"rajasthan",
+	city:{city1:"jaipur",place:{
+	hostel:"kukas",college:{
+		name:"aceit"},
+		},
 	},
-	age: 22,
-	city:"sultanpur",
-	state:"up"
+},
+	age:22,
+	mob:9929064721,
+	city:"sultanpur"
 }
+var city=[
+	"kanpur", "delhi","sln", "mumbai"
+]
