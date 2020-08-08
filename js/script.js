@@ -1,5 +1,7 @@
 function myFunction(){
-	document.write(city)
+	document.write(temp)
+	document.write("-- my old array--", city)
+	
 		document.getElementById("demo").innerHTML= "sultanpur";
      console.log (person.state.state2.state3)
 }
@@ -25,7 +27,7 @@ var college ={
 
 }
 var city=[
-	"kanpur", "delhi","sln", "mumbai"
+	"kanpur", "delhi","sln", "mumbai","jaipur"
 ]
 person ={
 	college:"aciet",
@@ -34,6 +36,10 @@ person ={
 	city:"jaipur",
 	hostel:"fourth"
 }
-city.push("add");
-city.pop();
-city.shift();
+//city.push("add1");
+//city.pop();
+//city.shift();
+//city.unshift("");
+
+//var temp= city.slice(0,3);
+var temp= city.splice(0,3);
