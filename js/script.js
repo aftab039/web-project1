@@ -1,90 +1,15 @@
-
-// you age 
+// age in days
 function ageindays(){
-var birthyear = prompt("what year were you born .. good friend");
-var ageindays = (2019-birhtyear)*365;
-console.log(ageindays);
+var birthyear= prompt("what year you were ...good friend");
+var ageindays= (2019- birthyear)* 365;
 
+var h1 = document.createElement("h1");
+var textAnswer = document.createTextNode("you are " + ageindays +  "days old");
+h1.setAttribute("id", "ageindays");
+h1.appendChild(textAnswer);
+document.getElementById("flexbox-result") .appendChild(h1);
+//console.log(ageindays);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // function myFunction(){
-// // 	document.write(temp)
-// // 	document.write("-- my old array--", city)
-	
-// // 		document.getElementById("demo").innerHTML= "sultanpur";
-// //      console.log (person.state.state2.state3)
-// // }
-// var person ={
-// 	intro:{state:"rajasthan",
-// 	city:{city1:"jaipur",place:{
-// 	hostel:"kukas",college:{
-// 		name:"aceit"},
-// 		},
-// 	},
-// },
-// 	age:22,
-// 	mob:9929064721,
-// 	city:"sultanpur"
-// }
-// var college ={
-// 	myintro:{state:"up",
-// 	hostel:{name:"aftab",
-// 	 branch:"ece"
-//       },
-
-//    },
-
-// }
-// var city=[
-// 	"kanpur", "delhi","sln", "mumbai","jaipur"
-// ]
-// person ={
-// 	college:"aciet",
-// 	state:{state1:"rajasthan",
-//  state2:{state3:"up"},},
-// 	city:"jaipur",
-// 	hostel:"fourth"
-// }
-// //city.push("add1");
-// //city.pop();
-// //city.shift();
-// //city.unshift("");
-
-// //var temp= city.slice(0,3);
-// var temp= city.splice(0,3);
+function reset(){
+    document.getElementById("ageindays").remove();
+} 
