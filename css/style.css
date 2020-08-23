@@ -14,3 +14,150 @@ padding:10px;
 .container-1{
     border: 1px solid black;
 }
+/*free code camp*/
+body{
+  background-color:#c46552;
+  
+ 
+  }
+#header-img{
+  width:150px;
+  height:150px;
+  margin-left:550px;
+  margin-top:0;
+  border-radius:10px;
+}
+h1{
+  color:white;
+  margin-left:500px;
+  margin-top:0;
+  }
+div.nav-bar{
+  overflow:hidden;
+  position:fixed;
+  background-color:black;
+  width:100%;
+ 
+  
+}
+.nav-link{
+  color:white;
+  text-decoration:none;
+  font-size:10px;
+  padding:10px 14px;
+  float:left
+    transition:background .5s ease;
+  
+}
+.nav-link:hover{
+  background-color:blue;
+ }
+.title{
+  margin-top:100px;
+  color:blue;
+  text-align:center;
+}
+#email{
+  display:block;
+  margin:auto;
+  width:50px;
+  padding:100px;
+  border-radius:50px;
+  border:none;
+  background-color:green;
+  font-size:15px;
+  transition:witdh .5s ease,background .5s ease;
+  
+}
+#email::placeholder{
+  color:white;
+  opacity:0.5;
+}
+#email:hover{
+  background-color:lightblue;
+  width:60px;
+ }
+#submit{
+  dispaly:block;
+  margin:auto;
+  padding:10px;
+  border:none;
+  border-radius:50px;
+  width:100px;
+  background-color:red;
+  margin-top:20px;
+  color:yellow;
+  font-size:10px;
+  transition:background .5s ease;
+}
+#submit:hover{
+  background-color:green;
+}
+.test{
+  width:100px;
+  margin:auto;
+  color:pink;
+  margin-top:20px;
+  transition:text-shadow .5s ease;
+}
+.text:hover{
+  text-shadow:0px 0px 10px;
+}
+#video{
+  margin:auto;l
+  display:block;
+  margin-top:100px;
+  margin-bottom:100px;
+  background-color:green;
+  padding:15px;
+}
+div.flex-container{
+  display:flex;
+  justify-content:center;
+  justify-align:center;
+  }
+div.products{
+  background-color:white;
+  margin100px;
+  transition:box-shadow .5s ease;
+}
+.products:hover{
+  box-shadow:0px 0px 5px white;
+}
+div.product-title{
+  padding:10px;
+  background-color:green;
+  color:white;
+  text-align:center;
+  }
+div.produvt-description{
+  color:yellow;
+ }
+#product-submit{
+  background-color:red;
+  border:none;
+  width:100px;
+  color:white;
+  text-decoration:none;
+  font-size:15px;
+  padding:10px;
+  transition:background .5s ease
+}
+#product-submit:hover{
+  background-color:green;
+ }
+@media screen and(max-width:600px){
+  .flex-container{
+    flex-direction:column;
+  }
+  .new-link{
+    width:100%;
+    margin:auto;
+  }
+  .text{
+    width:400px;
+    
+    
+  }
+}
+
