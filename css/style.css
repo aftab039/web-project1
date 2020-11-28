@@ -45,7 +45,7 @@ li a.active{
    background-color: #9cb8a3;
    
 }
-li a:hover{
+ul > li > a:hover{
    background-color:pink;
 }
 
